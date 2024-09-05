@@ -107,11 +107,13 @@ const CheckoutForm = () => {
                 name="name"
                 value={formatSavedInfo(savedInfo.name)}
                 className="bg-transparent ml-2"
+                readOnly
               />
               <input
                 name="address"
                 value={formatSavedInfo(savedInfo.address)}
                 className="bg-transparent"
+                readOnly
               />
             </span>
             <button
